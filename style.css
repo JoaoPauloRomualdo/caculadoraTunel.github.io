@@ -1,0 +1,56 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color:#e5e5e5;
+}
+
+form{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top:50px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: -4px 4px 10px rgba(0, 0, 0, 0.486);
+}
+
+input[type="text"]{
+    font-size: 1.2em;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 8px;
+    outline: none;
+}
+
+input[type="checkbox"]{
+   width: 20px;
+   height: 20px;
+}
+
+form .produtos{
+    font-size: 1.2em;
+}
+
+.produtos h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+form .footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer button{
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
